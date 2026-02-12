@@ -6,7 +6,7 @@ unsafe extern "C" {
 		h_instance: *const c_void,
 		content: *const c_char,
 		title: *const c_char,
-		mg_type: c_uint,
+		mb_type: c_uint,
 	) -> c_int;
 }
 
